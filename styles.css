@@ -32,6 +32,7 @@ header h1 {
 
 nav ul {
     list-style-type: none;
+    text-align: center; /* Adicionado para centralizar os links */
 }
 
 nav ul li {
@@ -42,6 +43,7 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold; /* Adicionado para enfatizar os links */
     transition: color 0.3s;
 }
 
