@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte - Meu Servidor</title>
+    <style>
+        /* Estilos CSS podem ser adicionados aqui */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Suporte</h1>
+    </header>
+    <main>
+        <p>Precisa de ajuda? Entre em contato conosco através dos seguintes meios:</p>
+        <ul>
+            <li>Email: suporte@meuserver.com</li>
+            <li>Discord: discord.gg/meuserver</li>
+            <li>Fórum: forum.meuserver.com</li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Servidor. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
