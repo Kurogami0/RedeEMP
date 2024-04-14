@@ -81,3 +81,20 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Outros estilos permanecem os mesmos */
+
+.btn-primary {
+    display: inline-block;
+    background-color: #ff7f50;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #ff6347;
+}
