@@ -4,24 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suporte - Meu Servidor</title>
-    <style>
-        /* Estilos CSS podem ser adicionados aqui */
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Suporte</h1>
+        <div class="container">
+            <h1>Meu Servidor de Minecraft</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="ip-porta.html">IP e Porta</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="regras.html">Regras</a></li>
+                    <li><a href="equipe.html">Equipe</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <p>Precisa de ajuda? Entre em contato conosco através dos seguintes meios:</p>
-        <ul>
-            <li>Email: suporte@meuserver.com</li>
-            <li>Discord: discord.gg/meuserver</li>
-            <li>Fórum: forum.meuserver.com</li>
-        </ul>
+        <div class="container">
+            <section>
+                <h2>Suporte</h2>
+                <p>Precisa de ajuda? Entre em contato conosco através dos seguintes meios:</p>
+                <ul>
+                    <li>Email: suporte@meuserver.com</li>
+                    <li>Discord: discord.gg/meuserver</li>
+                    <li>Fórum: forum.meuserver.com</li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>&copy; 2024 Meu Servidor. Todos os direitos reservados.</p>
+        <div class="container">
+            <p>&copy; 2024 Meu Servidor. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
 </html>
