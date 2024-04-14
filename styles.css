@@ -98,3 +98,11 @@ footer {
 .btn-primary:hover {
     background-color: #ff6347;
 }
+
+/* Outros estilos permanecem os mesmos */
+
+.logo {
+    height: 1em; /* Define a altura da imagem igual à altura do texto */
+    vertical-align: middle; /* Alinha verticalmente a imagem com o texto */
+    margin-right: 10px; /* Adiciona um espaço entre a imagem e o texto */
+}
