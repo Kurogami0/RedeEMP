@@ -1,4 +1,3 @@
-// Espera o carregamento completo do DOM
 document.addEventListener('DOMContentLoaded', () => {
 
     // Efeito de animação ao passar o mouse sobre as imagens da galeria
@@ -32,8 +31,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (contactForm) {
         contactForm.addEventListener('submit', (e) => {
             e.preventDefault();
-            // Simula um envio bem-sucedido
-            alert('Mensagem enviada com sucesso!');
+            
+            // Simula o envio de uma mensagem bem-sucedida
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message';
+            messageDiv.textContent = 'Mensagem enviada com sucesso!';
+            contactForm.appendChild(messageDiv);
+            
+            // Remove a mensagem após alguns segundos
+            setTimeout(() => {
+                messageDiv.remove();
+            }, 5000);
+            
             contactForm.reset(); // Reseta o formulário após o envio
         });
     }
