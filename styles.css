@@ -113,6 +113,32 @@ h1, h2 {
     margin-bottom: 10px;
 }
 
+/* Estilos para a seção da equipe */
+.team-member {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.team-photo {
+    width: 100px; /* Ajuste o tamanho da foto do membro da equipe */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 50%; /* Torna a imagem circular, se desejado */
+    margin-bottom: 1rem; /* Espaço entre a foto e o nome */
+}
+
+.team-name {
+    font-size: 1.5rem; /* Tamanho do nome do membro da equipe */
+    color: #eee; /* Cor do texto */
+    margin: 0.5rem 0; /* Espaço acima e abaixo do nome */
+}
+
+.team-role {
+    width: 150px; /* Ajuste o tamanho do ícone do cargo */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 0.5rem; /* Espaço entre o nome e o cargo */
+}
+
+
 /* Formulário de Contato */
 form {
     max-width: 600px;
